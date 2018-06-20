@@ -1,0 +1,23 @@
+{
+    "name": "keling/city",
+    "authors": [
+        {
+            "name": "潘亮mac",
+            "email": "1104534940@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Keling\\City\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Keling\\City\\CityServiceProvider"
+            ]
+        }
+    }
+}
